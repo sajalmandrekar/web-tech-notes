@@ -1,0 +1,56 @@
+Check: lec3.html
+
+Creating a paragraph
+
+when you write text within a heading tag or within the body tags, html only recognises single spaces
+The <p> </p >tag marks a block of text as a paragraph
+The web browser formats the text into paragraph to fit the current page width.
+The no of lines depends on the size of browser wwindow, if you resize the browser window the no. of lines will change.
+
+Working with images
+
+    Insering an image on webpage
+
+We use the image tag to insert an images
+
+<img> </img>
+
+It uses a source attribute src which takes image file as its value
+
+<img src="path/image.png">
+
+If image file is same directory where html file stored, then there is no need to specify the full path of the image. 
+If image is another folder then full path needs to mentioned.
+
+    Display Alternate Text for an image
+
+<img src="" alt="Image not loaded">
+
+If the image doesn't appear in browser, we can still specify for an image that is displayed when image is not visibled on webpage
+
+Display text when howering cursor over an image: title attribute
+<img src="" alt="" title="">
+
+Adding a border to an image
+attribute: border (thickness)
+<img src="" border="">
+
+
+Aligning Image
+align: 3 attributes: left,rigth,center
+if you create both
+
+Using images as hyperlink
+
+<a href="lec2.html">
+<img src="cat.jpg">
+</a>
+
+Creating image maps
+
+html provides facility to link multiple webpages to a single image through an image map.
+image map is atecnique that divides the image into multiple section and allows linking of each section to a different image.
+Link regions of a image map are called hot regions and each hot region is associated with an html file that is loaded when hot region is filled.
+We have to use the shape attribute of the area tab
+
+

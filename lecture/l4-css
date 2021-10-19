@@ -1,0 +1,24 @@
+CSS
+
+Adding In-line style sheets
+
+1. inside head tag
+
+<head>
+<style> 
+h1{
+...
+}
+h2{
+...
+}
+</style>
+</head>
+
+2. link to external css sheets
+
+<link rel="stylesheet" href="mystyle.css">
+
+3. inline style sheet added into middle of HTML
+
+    <h2 style="color:red;font-size:+27pt">Heading</h2>

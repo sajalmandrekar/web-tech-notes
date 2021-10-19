@@ -1,0 +1,18 @@
+Forms in Html
+
+post method: post data
+get method: data to be encoded in URL
+
+attributes of input:
+<input>
+
+1. type = button,checkbox,file,hidden,text,submit
+2. alt = value:text
+3. disable = 
+4. size = int
+5. name = var is identified by this name
+
+Adding a button 
+Adding checkboxes,radio
+accepting passwords
+submit and reset button

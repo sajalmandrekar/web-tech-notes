@@ -1,0 +1,17 @@
+<html>
+ <SCRIPT type="application/x-javascript"> 
+ function displayCanvas() { 
+ var mycanvas = document.getElementById("myCanvas"); 
+ if (mycanvas.getContext) { 
+ var contex = mycanvas.getContext('2d'); 
+ contex.fillStyle = "rgb(50,0,0)"; 
+ contex.fillRect (0, 0, 150, 150); 
+ } 
+ } 
+ </SCRIPT> 
+ <body onload="displayCanvas();"> 
+ <CANVAS id="myCanvas" width="500" height="500"> 
+ Your browser does not support the CANVAS element. 
+ </CANVAS>
+</body>
+</html>

@@ -1,0 +1,12 @@
+Check implementation: table.html
+
+Working with tables
+
+table can have associated caption to provide short description of the table.
+
+<table> tag used to create a tables
+<tr> to create rows
+<td> tag to add values to coloumns
+
+No of pairs of the <tr></tr> tags inside <table> determine no of rows in table.
+

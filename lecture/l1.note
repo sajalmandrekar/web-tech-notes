@@ -1,0 +1,51 @@
+HTML notes
+
+<title>
+title elemrnt contains the title of html page
+used by search engine to refer to docs
+each head element should contain the title element
+you try to keep the title relatively short bcoz some browsers face difficulties in title longer than 255 char
+Attributes: class, id, languages
+
+<body>
+- contains major body of html doc witch includes the entire content that will appear in web browser
+- it can include text inputs & multimedia elements
+Attributes: link, background, bgcolor, leftmargin, topmargin
+
+Creating headings on webpage
+- defines the format n structure of document and highlight imp notes
+- html has spefic preformated tabs to create headings
+- html has 6 predifined heading tabs
+<h1> Laargest </h1>
+<h2> </h2>
+<h3> </h3>
+....
+<h6> smallest </h6>
+
+Aligning Headings
+- u can use the align attribute under the heading tab
+- attributes are: center, left, right, justify
+e.g. <h1 align=center>
+
+Hyperlinks
+used to connect 1 webpage to another
+- hyperlink link direct u to webpage specified in the destination or u can go to differnt section in same webpage
+How to create?
+<a href = two.html target = "_blank">Link title</a>
+- target attribute specifies when to open the link document, 'blank' opens the new webpage in new tab
+- two.html should lie in same directory or else full path of file needs to be specified
+- attributes: link,vlink,alink can be used to change colour of hyperlink
+- link: specifies color of hyperlink not visited/clicked
+- vlink: specifies color of wepage link that has been visited
+- alink: color of active hyperlink 
+- this has to be specifed in body tag
+e.g.
+<body link="red" vlink="green", alink="black">
+
+Go to different sections of webpage
+<a href = #SECTION_A> Link go burrrr...</a>
+.
+.
+.
+<a name= #SECTION_A> Section A</a>
+

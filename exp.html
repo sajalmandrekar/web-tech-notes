@@ -1,0 +1,108 @@
+<!DOCTYPE>
+<html dir="ltr">
+    <head>
+        <title>Learn HTML</title>
+    </head>
+    <body bgcolor="blue" leftmargin="40px" text="black" link="red" vlink="orange">
+        <h2>HTML</h2>
+        html is a scripting language used to create web pages
+
+        <p>
+            Headings help to define the format and structure of a document and highlight
+important topics. And btw ... this is a paragraph
+        </p>
+
+        <h2 align="center">This text is aligned in the center.</h2>
+        <h2 align="left">This text is aligned in the left.</h2> 
+        <h2 align="right">This text is aligned in the right.</h2>
+
+        <a href="lecture/13-08_3.html" target="_blank">
+            <h3>Click here to open</h3>
+        </a>
+
+        <a href="#SECTION_A"> <h2>Go to SECTION A</h2> </a>
+        <br><br>
+
+        <form action="lecture/13oct.html" method="get">
+            <br>
+            Name: <input type="text" name="fname" size = "50">
+            <br>
+            <h3>Who's the GOAT?</h3>
+            Messi <input type="checkbox" name="goat" value="Messi" checked>
+            <br>
+            Cristiano <input type="checkbox" name="goat" value="Cristiano">
+            <br><br>
+            <input type="reset" value="RESET">
+            <br><br>
+            <input type="submit" value="SUBMIT">
+        </form>
+
+        <br><br><br>
+
+        <p> Describe yourself:</p>
+        <textarea rows="20" cols="30" >This is a text area</textarea>
+
+        <br><br><br>
+
+        Select HOBBY:<br>
+        <form action="lecture/l1.html">
+
+            <select multiple>
+            
+            <optgroup label="General hobby">
+            
+            <option value ="playing">Playing</option>
+            
+            <option value = "Music"> Music</option>
+            
+            </optgroup>
+            
+            <optgroup label = "Educational Hobby">
+            
+            <option value ="stamp collection">stamp collection</option>
+            
+            <option value = "reading"> Reading</option>
+            
+            </optgroup>
+            
+            </select>
+            <input type="submit" value="SUBMIT HOBBY">
+
+        </form>
+
+        <br><br><br>
+        <a name="SECTION_A"> This is SECTION IMAGES!</a>
+        <br><br>
+
+        <img 
+            src="res/hindu_cat2.jpg" 
+            alt="Image not found" 
+            title="Shri. Cat" 
+            border="5px" 
+            height="30%" width="30%"
+            usemap="#MyMap1">
+        <map name="MyMap1">
+        <area shape="rect" coords="0,0,82,126" title="Rectangle">
+        
+        <br><br>
+
+        <table border="1">
+            <th rowspan="4">Student Data</th>
+            <tr>
+                <td> Name </td>
+                <td> Semester</td>
+                <td> Roll</td>
+            </tr>
+            <tr>
+                <td> Sajal </td>
+                <td> 5</td>
+                <td> 5057</td>
+            </tr>
+            <tr>
+                <td> Samay</td>
+                <td colspan="2"> 5-123 </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
