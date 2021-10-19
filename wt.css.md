@@ -40,11 +40,11 @@ tagname {styleattribute : value; }
     ```
 
 2. link to external css sheets
-    * <link> should be present inside <head></head>
-    * <link rel="stylesheet" href="mystyle.css">
+    * `<link> should be present inside <head></head>`
+    * `<link rel="stylesheet" href="mystyle.css">`
 
 3. inline style sheet added into middle of HTML
-    * <h2 style="color:red;font-size:+27pt">Heading</h2>
+    * `<h2 style="color:red;font-size:+27pt">Heading</h2>`
 
 ### text attributes in css
 * applies for p, h, body, etc
@@ -67,19 +67,19 @@ h1,h2{
         font-size:15pt;
     }
     ```
-2. <p class="myclass"> Web tecnologies by prof. Teslin </p>
+2. `<p class="myclass"> Web tecnologies by prof. Teslin </p>`
 
 ### ID as selector
 1. in css
     ```
     #uniqueId{ font-size:12pt; color:blue;}
     ```
-2. <div id="uniqueId"> ... </div>
+2. `<div id="uniqueId"> ... </div>`
 * note: id as selector is unique and only used once
 
 ### contextual selectors
 * eg. h2 em{}
-* <h2>... <em>....</em>...</h2>
+* `<h2>... <em>....</em>...</h2>`
 * div p{} :The first selector matches all P elements that have a DIV among the ancestors.
 * .red h1{} :The second selector matches all H1 elements that have an element of class red.
 
